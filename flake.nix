@@ -1,8 +1,10 @@
 { 
   outputs = {
-    vscode = {
-      description = "VSCode with default extensions";
-      path = ./vscode;
+    templates = {
+      vscode = {
+        description = "VSCode with default extensions";
+        path = ./vscode;
+      };
     };
   };
 }
