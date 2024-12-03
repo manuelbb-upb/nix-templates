@@ -1,6 +1,7 @@
+*
+
 !User/ 
 User/*
 !User/settings.json
 
-*
 !.gitignore
