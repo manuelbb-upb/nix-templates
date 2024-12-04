@@ -1,5 +1,5 @@
 {
-  description = "VSCode in shell";
+  description = "VSCode with Default Extensions";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
