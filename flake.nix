@@ -23,6 +23,7 @@
     pkgs = nixpkgs.legacyPackages.${system};
   in
   {
+    inherit nix-matlab-ld;
     packages.${system} = rec {
       inherit (vscode-flake.packages.${system}) vscodium-with-default-extensions;
       vscodium-local = pkgs.callPackage ./pkgs/vscode/with-local-data.nix {
