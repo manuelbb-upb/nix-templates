@@ -35,6 +35,10 @@
         description = "VSCode with default extensions";
         path = ./vscode;
       };
+      julia = {
+        description = "Julia unpatched, whithout shell hook.";
+        path = ./julia;
+      };
       julia-ld = nix-matlab-ld.templates.julia;
       python-ld = nix-matlab-ld.templates.python;
       poetry-ld = nix-matlab-ld.templates.poetry;
